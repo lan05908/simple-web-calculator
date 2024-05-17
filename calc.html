@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simpleCalc</title>
+</head>
+<body>
+    <h1>simple calculator</h1>
+    <form name ="equation">
+        <input type="text" name="left">
+        <select name="operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="^">^</option>
+            <option value="log_L">log_L</option>
+            <option value="sin_L">sin_L</option>
+        </select>
+        <input type="text" name="right" />= <span>
+
+    </span>
+    <input type="button" value="Go" onclick="calc()" />
+</form>
+    <script src="calculate.js"></script>
+</body>
+</html>
